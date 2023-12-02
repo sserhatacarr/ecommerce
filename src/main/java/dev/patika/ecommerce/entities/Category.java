@@ -5,7 +5,8 @@ import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
+
+import java.util.List;
 
 @Entity
 @Table(name = "categories")
@@ -23,6 +24,8 @@ public class Category {
     @Column (name = "category_name")
     private String name;
 
+    @OneToMany(mappedBy = "category")
+    private List<Product> products;
 
 
 }

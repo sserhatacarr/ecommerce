@@ -1,4 +1,4 @@
-package dev.patika.ecommerce.dto.request;
+package dev.patika.ecommerce.dto.request.category;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;

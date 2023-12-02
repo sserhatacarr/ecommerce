@@ -1,14 +1,14 @@
-package dev.patika.ecommerce.dto.response;
+package dev.patika.ecommerce.dto.response.supplier;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 
-public class CategoryResponse {
+public class SupplierResponse {
     private int id;
-    private String name;
+    private String companyName;
 }
